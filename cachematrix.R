@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) { ## input is the output of 'makeCacheMaktrix,
   ## solve fo r the inverse of matrix1 using the 'solve' function
   inv <- solve(matrix1, ...)
   ## change the value of inv in makeCacheMatrix from NULL to the newly
-  ## calcualted inv
+  ## calculated inv
   x$set.inv(inv)
   ## return the inverse of the matrix initialy input to makeCacheMatrix
   inv
